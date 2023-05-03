@@ -8,9 +8,9 @@ body {
     height: 75vh;
 }
 
-#navigate-button {
+#button {
     border: none;
-    width: 60%;
+    width: 90%;
     padding: 1em;
     background-color: black;
     color: white;
