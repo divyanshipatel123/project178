@@ -52,19 +52,18 @@
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
 
-    <!-- Body HTML -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center p-5">
-                <h1>MONUMENTS Redirected page</h1>
-            </div>   
-        </div>
-    </div>
+
 
     <!-- CSS and JS -->
     <link rel="stylesheet" href="./ar_weather.css" />
     <script src="./ar_weather.js" type="text/javascript"></script>
 
+
+    <a-scene vr-mode-ui="enabled: false" embedded arjs="sourceType: webcam; debugUIEnabled: false;"
+        id="scene_container">
+        <a-camera gps-camera rotation-reader minDistance="1" positionMinAccuracy="0"> </a-camera>
+    </a-scene>
+    
 </body>
 
 </html>
